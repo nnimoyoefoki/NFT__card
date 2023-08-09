@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.NFT__main {
+  border-radius: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+}
+/* INFO */
+h3 {
+  font-size: 1.8rem;
+  font-weight: 540;
+  padding-top: 1.5rem;
+}
+
+h4 {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: hsl(215, 51%, 70%);
+}
+
+/* TYPE */
+.NFT__type {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ethereum {
+  display: flex;
+  gap: 5px;
+  font-size: 1.5rem;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.duration {
+  display: flex;
+  gap: 5px;
+  font-size: 1.5rem;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+/* CREATOR */
+.NFT__producer {
+  border-top: hsl(215, 32%, 27%) solid 1px;
+}
+
+span {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+span p creation {
+  padding-right: 3px;
+  color: hsl(215, 51%, 70%);
+}
+
+/* IMAGES */
+.NFT__equilibrum {
+  border-radius: 5%;
+  width: 24rem;
+  height: 22rem;
+}
+.NFT__producer img {
+  border: #fff solid 0.5px;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.3rem;
+}
